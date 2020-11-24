@@ -9,6 +9,7 @@ module.exports = {
 	output: {
 		path: path.resolve(__dirname, 'dist/')
 	},
+//	cache: false,
 	module: {
 		rules: [{
 			test: /\.vue$/,
