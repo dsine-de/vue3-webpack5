@@ -5,6 +5,7 @@ On a second change & file save, the browser only shows `[WDS] App hot update...`
 
 Running `npm run dev2` fails with the error message `Error: Cannot find module 'webpack-cli/bin/config-yargs'`.
 
+When setting `cache: false` in webpack config, HMR works.
 
 - OS: Windows 10
 - Package versions: See `package.json`
